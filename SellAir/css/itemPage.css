@@ -1,0 +1,66 @@
+/*Item page*/
+#item{
+
+	overflow:hidden;
+	width:100%;
+	min-height:500px;
+	margin-bottom:20px;
+}
+#itemLeft{
+	overflow:hidden;
+	height:100%;
+	padding:15px;
+}
+#itemRight{
+	height:100%;
+	overflow:hidden;
+}
+#itemInfo{
+	padding:10px;
+	background-color:rgb(240, 240, 240);
+	color:black;
+	font-size:18px;
+	margin-top:15px;
+}
+.itemInfoBox{
+
+	color:black;
+	overflow:hidden;
+	margin:5px;
+}
+#itemPrice{
+	font-size:22px;
+}
+#addToCard{
+	background-color:rgb(255, 168, 0);
+	padding:3px;
+	margin-top:20px;
+
+}
+#addToCard > span{
+	display:block;
+	line-height:40px;
+	text-align:center;
+	color:white;
+	transition:background-color ease 0.5s;
+}
+#addToCard :hover{
+	background-color:rgb(255, 104, 0);
+}
+#itemImage{
+	overflow: hidden;
+	height:380px;
+	margin-bottom:20px;
+	background-color:#cecece;
+}
+#itemDescr{
+	background-color:rgb(240, 240, 240);
+	min-height:120px;
+	padding:20px;
+	font-size:16px;
+}
+#itemDescrTitle > span{
+	font-size:20px;
+	font-weight:bold;
+}
+/*Item page End*/

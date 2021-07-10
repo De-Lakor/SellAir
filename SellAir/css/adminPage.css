@@ -1,0 +1,38 @@
+/* Admin */
+#admincontent{
+	/* outline:1px solid red; */
+	margin:20px 20px 20px 20px ;
+	padding:10px 10px 10px 10px;
+	width:auto;
+	min-height:450px;
+	color:black;
+	background-color:rgb(166, 255, 244);
+	border-radius:15px;
+}
+#admincontent input{
+	margin-bottom:15px;
+	width:120px;
+}
+#admincontent input[type=text]{
+	width:300px;
+}
+#admincontent input[type=number]{
+	width:200px;
+}
+#vozmojnosty a{
+	color:black;
+}
+#admincontent select{
+	color:black;
+	width:200px;
+	margin-bottom:15px;
+}
+#admincontent textarea{
+	width:300px;
+	padding:10px;
+	min-height:100px;
+}
+#intofontsize{
+	font-size:24px;
+}
+/* Admin page end */
